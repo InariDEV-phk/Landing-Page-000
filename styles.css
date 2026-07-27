@@ -8,9 +8,10 @@
 
 :root{
     --primary-color: #ffffff;
-    --secondary-color: #c100c194;
-    --terciary-color:#f581ff;
-    --button-color:rgb(149, 0, 228);
+    --secondary-color: #0091ff94;
+    --terciary-color: #81c0ff;
+    --button-color: #006ee4;
+    --forth-color: #cdf6ff;
 }
 
 
@@ -22,7 +23,7 @@
 }
 
 p{
-    color: var(--primary-color);
+    color: #2c2c2c;
 }
 
 header {
@@ -126,12 +127,12 @@ button:active {
 
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: rgba(106, 0, 130, 0.355);
+    background-color: var(--forth-color);
 }
 
 .section-assuntos h1 {
     width: 100%;
-    color: var(--primary-color);
+    color: #2c2c2c;
     font-size: 40px;
     font-weight: 600;
     line-height: 1.1em;
@@ -240,38 +241,49 @@ button:active {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(106, 0, 130, 0.355);
+    background-color: var(--forth-color);
     gap:25px;
     
 
 }
 
 .section-depo h2{
-    color: #FFFFFF;
+    color: #2c2c2c;
     margin-top: 30px;
     font-size: 43px;
     font-weight: 600;
 }
 
+.section-depo #depo-div{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
 .depo-text{
-    width: 60%;
+    width: 20%;
     height: auto;
     padding: 10px;
     height: auto;
     font-size: 18px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    
 }
 
 .depo-text h3{
-    color: #FFFFFF;
-    font-size: 26px;
+    color: #2c2c2c;
+    font-size: 23px;
     margin-bottom: 15px;
 }
 
 .depo-text p{
     padding: 10px;
-    color: black;
-    background-color: #FFFFFF;
-    border-radius: 10px;
+    color: #2c2c2c;
+    font-style: italic;
+    
 }
 
 
@@ -281,7 +293,7 @@ footer{
     align-items: center;
     height: 225px;
     gap: 50px;
-    background: rgba(106, 0, 130, 0.355);
+    background: var(--secondary-color);
 }
 
 .social{
@@ -369,6 +381,10 @@ footer .img-logo-footer{
         width: 32%;
     }
 
+    p {
+        font-size: 18px;
+    }
+
 }
 
 @media screen and (max-width:950px) {
@@ -384,7 +400,7 @@ footer .img-logo-footer{
     }
 
     p {
-        font-size: 25px;
+        font-size: 18px;
     }
 
     .img-logo {
@@ -432,9 +448,6 @@ footer .img-logo-footer{
         font-size: 35px;
     }
 
-    p {
-        font-size: 25px;
-    }
 
     .img-logo {
         width: 60%;
