@@ -8,10 +8,10 @@
 
 :root{
     --primary-color: #ffffff;
-    --secondary-color: #0091ff94;
-    --terciary-color: #81c0ff;
-    --button-color: #0014c3;
-    --forth-color: #cdf6ff;
+    --secondary-color: #00ff5594;
+    --terciary-color: #81ffbc;
+    --button-color: #81ffbc;
+    --forth-color: #cdffe1;
 }
 
 
@@ -295,7 +295,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 225px;
+    height: auto;
     gap: 50px;
     background: var(--secondary-color);
 }
@@ -328,7 +328,7 @@ footer{
 
 footer .img-logo-footer{
     margin-top: 20px;
-    height: 95%;
+    height: 25vh;
 }
 
 .texto-footer{
