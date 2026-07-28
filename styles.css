@@ -10,7 +10,7 @@
     --primary-color: #ffffff;
     --secondary-color: #0091ff94;
     --terciary-color: #81c0ff;
-    --button-color: #006ee4;
+    --button-color: #0014c3;
     --forth-color: #cdf6ff;
 }
 
@@ -25,6 +25,7 @@
 p{
     color: #2c2c2c;
 }
+
 
 header {
     max-width: 100vw;
@@ -49,8 +50,6 @@ video{
     position: fixed;
     top: 0;
     background: linear-gradient(109deg, #03030480 15%, rgba(10, 12, 16, 0.5) 50%, rgba(10, 12, 16, 0.5) 85%);
-    width: 100%;
-    height: 100%;
 }
 
 
@@ -72,7 +71,7 @@ header p {
 
 b {
     font-weight: 700;
-    color: var(--terciary-color);
+    color:#ffe600;
 }
 
 button {
@@ -282,11 +281,10 @@ button:active {
 .depo-text h3{
     color: #2c2c2c;
     font-size: 23px;
-    margin-bottom: 15px;
 }
 
 .depo-text p{
-    padding: 10px;
+    padding: 5px;
     color: #2c2c2c;
     font-style: italic;
     
@@ -556,7 +554,7 @@ footer .img-logo-footer{
 
     header {
         width: 100%;
-        height: 37%;
+        height: 30%;
 
         background-size: cover;
         background-position: center;
@@ -595,9 +593,9 @@ footer .img-logo-footer{
 @media screen and (max-width:400px) {
 
     header {
-        padding-top: 20%;
+        padding-top: 10%;
         width: 100%;
-        height: 20%;
+        height: 30%;
         background-size: cover;
         background-position: center;
     }
@@ -617,10 +615,7 @@ footer .img-logo-footer{
         font-size: 15px;
     }
 
-    .img-logo {
-        width: 0%;
-
-    }
+   
 
     .assuntos {
         margin: 0 auto;
@@ -699,7 +694,7 @@ footer .img-logo-footer{
 
     header {
         width: 100%;
-        height: 20%;
+        height: 28%;
         background-size: cover;
         background-position: center;
     }
