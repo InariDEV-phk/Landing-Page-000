@@ -128,13 +128,13 @@ button:active {
     align-items: center;
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: var(--forth-color);
+    background: linear-gradient(var(--secondary-color), var(--secondary-color));
     
 }
 
 .section-assuntos h1 {
     width: 100%;
-    color: #2c2c2c;
+    color: #FFFFFF;
     font-size: 40px;
     font-weight: 600;
     line-height: 1.1em;
@@ -194,16 +194,22 @@ button:active {
 
 .container-assuntos2 .assuntos:is(:nth-child(1), :nth-child(3)){
     background-color: #dcefdc;
+     width: 350px;
 }
 
 .container-assuntos2 .assuntos:nth-child(2){
     background-color:#f9dbe4 ;
+     width: 325px;
 }
 
 .container-assuntos2 .assuntos:nth-child(4){
     background-color: #fff0b8;
-    width: 425px;
+    width: 340px;
 
+}
+
+#assuntos-footer{
+    color:#FFFFFF;
 }
 
 .description p{
@@ -244,7 +250,7 @@ button:active {
     align-items: center;
     gap: 20px;
     height: 610px;
-    background: linear-gradient(90deg, var(--secondary-color) -59%, var(--secondary-color) 0%, var(--secondary-color) 45%);
+    background-color: var(--forth-color);
     padding: 30px;
 }
 
@@ -257,7 +263,6 @@ button:active {
 }
 
 .sobre-text{
-        text-shadow: 0px 0px 10px #000000;
     width: 670px;
     height: auto;
     padding: 10px;
@@ -265,19 +270,23 @@ button:active {
 }
 
 .sobre-text h2{
-    color: #FFFFFF;
+    color: #2c2c2c;
     font-family: "Roboto", Sans-serif;
     font-size: 43px;
     font-weight: 600;
 }
 
 .sobre-text p{
-    color: #FFFFFF;
+    color: #2c2c2c;
     font-family: "Roboto", Sans-serif;
     font-size: 20px;
     font-weight: 300;
     line-height: 1.2em;
     margin-top: 20px;
+}
+
+.sobre-text b{
+    color:rgb(255, 0, 166);
 }
 
 .button-sobre{
@@ -417,7 +426,7 @@ footer .img-logo-footer{
 }
 
 .texto-footer p:hover{
-    color: var(--terciary-color);
+    color: var(--button-color);
     transition: 0.5s;
     cursor: pointer;
     text-decoration: none;
